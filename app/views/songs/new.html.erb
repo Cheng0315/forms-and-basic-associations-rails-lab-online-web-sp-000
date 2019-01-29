@@ -10,7 +10,7 @@
   <%= f.collection_select :genre_id, Genre.all, :id, :name %>
   <br />
   <% Note.all.each do |note| %>
-    <input name="song_notes_<%=note.id%>[]">
+    <input name="song_notes_<%=note.id%>">
   <% end %>
 
   <%= f.submit %>
