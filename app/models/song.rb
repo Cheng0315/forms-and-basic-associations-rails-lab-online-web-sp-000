@@ -20,4 +20,6 @@ class Song < ActiveRecord::Base
   def genre_name
     self.genre.name
   end
+
+
 end
