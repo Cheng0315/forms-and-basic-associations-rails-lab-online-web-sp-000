@@ -4,6 +4,6 @@ class Song < ActiveRecord::Base
   has_many :notes
 
   def artist_name
-    @artist_name 
+
   end
 end
